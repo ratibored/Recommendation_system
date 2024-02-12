@@ -239,7 +239,3 @@ def recommended_posts(id: int, time: datetime, limit: int = 10) -> Response:
     else:
         result = get_recommended_feed_test(id, time, limit)
     return {"exp_group": exp_group, "recommendations": result}
-
-
-if __name__ == "__main__":
-    uvicorn.run(app, host='localhost', port=8899)
