@@ -1,4 +1,4 @@
-# posts-feed-recsys
+# Recommendation_system
 Проект, реализованный в ходе обучения на курсе ["Start ML"](https://karpov.courses/ml-start) от Karpov.Courses
 
 ## Описание проекта
