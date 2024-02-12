@@ -4,17 +4,17 @@
 {
   "user_id": 200,
   "request_time": "2021-10-01T00:00:00",
-  "posts_limit": 5
+  "limit": 5
 }
 
 {
   "user_id": 100000,
   "request_time": "2021-11-17T00:00:00",
-  "posts_limit": 2
+  "limit": 2
 }
 
 {
   "user_id": 168552,
   "request_time": "2021-12-29T00:00:00",
-  "posts_limit": 10
+  "limit": 10
 }
