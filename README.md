@@ -1,5 +1,5 @@
 # posts-feed-recsys
-Выпускной проект курса [Karpov Courses специализации Start ML](https://karpov.courses/ml-start)
+Выпускной проект курса [Karpov.Courses специализации Start ML](https://karpov.courses/ml-start)
 
 ## Описание проекта
 
