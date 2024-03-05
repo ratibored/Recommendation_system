@@ -81,7 +81,7 @@ def load_features_test():
         where action='like'"""
     liked_posts = batch_load_sql(liked_posts_query)
 
-    # Загружаем фичи по постам с эмбеддингами на основе tf-idf
+    # Загружаем фичи по постам с эмбеддингами на основе DistilBert
     logger.info("loading posts features")
     posts_features = pd.read_sql(
         "SELECT * FROM public.posts_info_features_dl",
@@ -113,8 +113,7 @@ def load_models(name: str):
     loaded_model.load_model(model_path)
     return loaded_model
 
-# При поднятии сервиса положим модели и фичи в переменные control_model, test_model и features
-
+# При поднятии сервиса положим модели и фичи в переменные control_model, test_model, feature_control, features_test
 
 logger.info("loading model control (classic)")
 control_model = load_models('model_classic')
