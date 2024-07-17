@@ -1,20 +1,8 @@
 # id пользователя указывать в пределах от 200 до 168552,
 # time запроса указывать в пределах от 1.10.2021 до 29.12.2021
 
-{
-  "id": 200,
-  "time": "2021-10-01T00:00:00",
-  "limit": 5
-}
+http://localhost:8000/post/recommendations/?id=222&time=2021-07-12 22:57:45&limit=1
 
-{
-  "id": 100000,
-  "time": "2021-11-17T00:00:00",
-  "limit": 2
-}
+http://localhost:8000/post/recommendations/?id=6132&time=2021-11-03 12:17:13&limit=5
 
-{
-  "id": 168552,
-  "time": "2021-12-29T00:00:00",
-  "limit": 10
-}
+http://localhost:8000/post/recommendations/?id=513&time=2021-11-12 07:37:37&limit=8
